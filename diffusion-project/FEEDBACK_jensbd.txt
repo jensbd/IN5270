@@ -1,0 +1,62 @@
+Program:
+
+1. Are the files easy to locate? That is, does the directory have a logical name? Are individual files given names according to the exercise?
+
+Yeah, it is easy to locate. There are only two files in the directory that have logical names.
+
+2. Is the program easy to read? More specifically,
+-Are variables given self-explanatory names or names in accordance of the mathematical description?
+
+Yes, but there are however some unnecessary variables, e.g. u and u_, or why is there both u_k and u_1. 
+
+-Are there enough comments in the code?
+
+Yes, but what is the docstring at the top? I guess this was not supposed to be here, beacause it is not the problem in this assignment. Some docstring could be added under function "picard", 
+so it is easier to understand the input variables. 
+
+-Is the code well formatted (use of whitespace etc.)?
+
+In most of the places it is well-formatted.
+
+-Is the code well organized in terms of functions or classes? (Also consider overuse of functions and classes in simpler problems!)
+
+There is a function for the solver and each task, which is ok.
+
+5. Does the program answer the various points in the exercise?
+
+Task d: there should be a test for both 1D, 2D, and 3D.
+
+Task e: ok.
+Task f: ok, but some error could be also printed, e.g. max error or L2-norm.
+
+6. Does the program work?
+Yes.
+
+7. Are there any (automatic) verifications of the code?
+Yes, there is some verification in task d.
+
+8. Are you able to run the code?
+Yes.
+
+
+For a report:
+
+1. Is the report easy to locate?
+
+Yes.
+
+2. Is the report well formatted (title, author, sections, paragraphs, right spacings, low amount of typos, nice layout, introduction, conclusions, etc.)?
+
+Yes to all.
+
+3. Is the text logic and easy to follow? Is there sufficient explanation of what is done?
+
+The text is logic and easy to follow, but some decription of what was done could be added to Part 1.4. and 1.5. 
+
+4. Are the results correct?
+
+Yes, but remember that alpha is a function of u. This part is missing in some of your equations. There is only alpha, instead of alpha(u). 
+There are probably more sources of numerical errors than those you mentioned, aren't there?
+
+5. Are there any verifications of the results?
+No?

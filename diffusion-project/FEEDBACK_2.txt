@@ -1,0 +1,9 @@
+Feedback from ohebbi
+
+The report is nice formatted and you explain every step. The resulting equations
+looks correct and it seems like your results also reflects this.
+
+The code is clean with well explained comments. The names of the variables
+makes sense as well.
+
+Good job.

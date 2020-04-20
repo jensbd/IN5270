@@ -1,0 +1,16 @@
+- dt should be decided by dt <= dx/max_x(sqrt(q(x))), you can read about the
+stability criterion. You will not get correct convergence rate when the program
+does not follow the stability criterion.
+- There is no calculation of the boundary conditions. You should read about
+how to apply Neumann conditions.
+- For d you are to apply x \in [-dx/2, L+dx/2]
+- q_{i \pm 1/2} should be q(i*dx \pm dx/2), not just q(x_i)
+- We are not to use the derivative of q in task b and c. For the interior points we
+use the same equation as task a
+- You could have iterated over more dx values.
+
+Variables have reasonable names, but functions do not It's ok to follow what you are doing, but the
+program lacks doc strings and there is an overuse of functions. Should break
+the longer lines.
+
+You should have submitted a report.

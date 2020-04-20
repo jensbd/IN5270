@@ -1,0 +1,4 @@
+# Feedback on oblig 1
+
+Everything seems to be correct to me. All tasks, both in the PDF and the code,
+were structured nicely and easy to review.

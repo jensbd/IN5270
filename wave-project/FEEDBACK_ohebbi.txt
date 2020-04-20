@@ -1,0 +1,10 @@
+Fantastic work, keep it up.
+
+Great work with the derivation in the report, it is easy to follow your steps and what you are doing. Maybe you could have
+said in the report that you included ghostcells in the implementation and thus having a different boundary implementation. 
+
+I observe that your convergence rate numbers are not correct, however, since I did not achieve them, I do not know what 
+to do to make them right. 
+
+Tip: Include a .gitignore file so that all the thrash files that you do not want on your github does not get commited. 
+This will make it easier to have a nice and structured repository. 
